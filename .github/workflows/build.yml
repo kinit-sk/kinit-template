@@ -1,0 +1,24 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  poster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: typst-community/setup-typst@v4
+        with:
+          typst-version: "0.15"
+      - name: Install poppler
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Build and verify the example poster
+        run: ./build.sh example/poster.typ --png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: example-poster
+          path: |
+            example/poster.pdf
+            example/poster.png

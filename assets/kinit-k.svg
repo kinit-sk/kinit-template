@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- KInIT 'k' mark. Source: inline data-URI SVG on https://kinit.sk/ (second img alt="KInIT"), recolored from white-on-dark to black-on-light. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 293.49 298.68">
+  <rect width="92.2" height="296.56" fill="#000000"/>
+  <rect x="170.97" width="95.82" height="100.84" fill="#ffb200"/>
+  <path fill="#000000" d="M92.2,148.28h0c21.33,7.72,48.81,21.76,72,62a333.17,333.17,0,0,1,35.49,88.37h93.78A430.62,430.62,0,0,0,239.07,164c-17.4-28.09-50-56.71-68.47-63.18"/>
+</svg>

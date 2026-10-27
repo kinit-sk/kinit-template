@@ -1,0 +1,8 @@
+# Build outputs (the example PNG preview is committed for the README)
+*.pdf
+!reference/*.pdf
+*.png
+!example/poster.png
+!reference/*.png
+
+.DS_Store
